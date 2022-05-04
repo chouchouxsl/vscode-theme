@@ -6,7 +6,20 @@
         "activityBar.foreground": "#D7DAE0",
         "activityBarBadge.background": "#528bff",
         "activityBarBadge.foreground": "#F8FAFD",
-        "button.background": "#528bff",
+        "textLink.foreground": "#4d9375",
+        "textLink.activeForeground": "#4d9375",
+        "button.background": "#4d9375",
+        "button.hoverBackground": "#4d9375",
+        "progressBar.background": "#4d9375",
+        "activityBar.activeBorder": "#4d9375",
+        "panelTitle.activeBorder": "#4d9375",
+        "terminal.ansiBrightGreen": "#4d9375",
+        "gitDecoration.addedResourceForeground": "#4d9375",
+        "editorGutter.addedBackground": "#4d9375",
+        "terminal.ansiGreen": "#4d9375",
+        "editorBracketHighlight.foreground2": "#4d9375",
+        "settings.modifiedItemIndicator": "#4d9375",
+        "editorHint.foreground": "#4d9375",
         "diffEditor.insertedTextBackground": "#00809B33",
         "dropdown.background": "#1d1f23",
         "dropdown.border": "#181A1F",
@@ -56,7 +69,6 @@
         "terminal.foreground": "#abb2bf",
         "terminal.ansiBlack": "#2d3139",
         "terminal.ansiBlue": "#528bff",
-        "terminal.ansiGreen": "#98c379",
         "terminal.ansiYellow": "#e5c07b",
         "terminal.ansiCyan": "#56b6c2",
         "terminal.ansiMagenta": "#c678dd",
@@ -64,7 +76,6 @@
         "terminal.ansiWhite": "#d7dae0",
         "terminal.ansiBrightBlack": "#7f848e",
         "terminal.ansiBrightBlue": "#528bff",
-        "terminal.ansiBrightGreen": "#98c379",
         "terminal.ansiBrightYellow": "#e5c07b",
         "terminal.ansiBrightCyan": "#56b6c2",
         "terminal.ansiBrightMagenta": "#7e0097",
@@ -188,15 +199,10 @@
             }
         },
         {
-          "scope": [
-            "variable",
-            "identifier",
-            "support.type.primitive.ts",
-            "entity.name.type.parameter"
-          ],
-          "settings": {
-            "foreground": "#bf9763"
-          }
+            "scope": ["variable", "identifier", "support.type.primitive.ts", "entity.name.type.parameter"],
+            "settings": {
+                "foreground": "#bf9763"
+            }
         },
         {
             "name": "Inherited Class",
@@ -263,31 +269,23 @@
             }
         },
         {
-          "scope": [
-            "property",
-            "meta.property-name",
-            "attribute.name"
-          ],
-          "settings": {
-            "foreground": "#b8a965"
-          }
+            "scope": ["property", "meta.property-name", "attribute.name"],
+            "settings": {
+                "foreground": "#b8a965"
+            }
         },
         {
-          "scope": [
-            "entity.other.attribute-name.html.vue"
-          ],
-          "settings": {
-            "foreground": "#db889a"
-          }
+            "scope": ["entity.other.attribute-name.html.vue"],
+            "settings": {
+                "foreground": "#db889a"
+            }
         },
         {
-          "scope": [
-            "invalid.illegal.unrecognized-tag.html"
-          ],
-          "settings": {
-            "fontStyle": "bold",
-            "foreground": "#61afef"
-          }
+            "scope": ["invalid.illegal.unrecognized-tag.html"],
+            "settings": {
+                "fontStyle": "bold",
+                "foreground": "#61afef"
+            }
         },
         {
             "name": "Library constant",
@@ -532,5 +530,5 @@
                 "foreground": "#ffffff"
             }
         }
-    ],
+    ]
 }
