@@ -1,0 +1,21 @@
+{
+    "name": "r_h_zero-theme",
+    "displayName": "R_h_zero Theme",
+    "description": "a theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "R_h_zero",
+                "uiTheme": "vs-dark",
+                "path": "./themes/R_h_zero-color-theme.json"
+            }
+        ]
+    }
+}
