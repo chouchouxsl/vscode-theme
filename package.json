@@ -12,7 +12,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "R_h_zero",
+                "label": "R_h_zero Theme",
                 "uiTheme": "vs-dark",
                 "path": "./themes/R_h_zero-color-theme.json"
             }
