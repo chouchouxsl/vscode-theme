@@ -1,7 +1,7 @@
 {
-    "name": "r_h_zero-theme",
+    "name": "rhzero-theme",
     "displayName": "R_h_zero Theme",
-    "description": "a theme",
+    "description": "R_h_zero theme for VS Code",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.66.0"
@@ -17,5 +17,16 @@
                 "path": "./themes/R_h_zero-color-theme.json"
             }
         ]
-    }
+    },
+    "icon": "icon.png",
+    "preview": true,
+    "license": "MIT",
+    "files": [
+        "themes"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/antfu/vscode-theme-vitesse"
+    },
+    "publisher": "R_h_zero"
 }

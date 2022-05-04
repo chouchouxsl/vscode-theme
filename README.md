@@ -1,4 +1,4 @@
 # README
-## This is the README for your extension 
+<h1 align="center">R_h_zero Theme for VS Code</h1>
 
 **Enjoy!**
