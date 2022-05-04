@@ -216,7 +216,7 @@
             "name": "Function name",
             "scope": ["entity.name.function", "support.function"],
             "settings": {
-                "foreground": "#98c379"
+                "foreground": "#80a665"
             }
         },
         {
@@ -259,7 +259,7 @@
             "name": "Tag Attribute",
             "scope": ["entity.other.attribute-name", "invalid.deprecated.entity.other.attribute-name.html"],
             "settings": {
-                "foreground": "#98c379"
+                "foreground": "#db889a"
             }
         },
         {
@@ -273,10 +273,21 @@
           }
         },
         {
-            "scope": ["entity.other.attribute-name.html.vue"],
-            "settings": {
-                "foreground": "#98c379"
-            }
+          "scope": [
+            "entity.other.attribute-name.html.vue"
+          ],
+          "settings": {
+            "foreground": "#db889a"
+          }
+        },
+        {
+          "scope": [
+            "invalid.illegal.unrecognized-tag.html"
+          ],
+          "settings": {
+            "fontStyle": "bold",
+            "foreground": "#61afef"
+          }
         },
         {
             "name": "Library constant",
