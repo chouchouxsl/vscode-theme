@@ -154,35 +154,35 @@
             "name": "Language Variable",
             "scope": "variable.language",
             "settings": {
-                "foreground": "#e06c75"
+                "foreground": "#db889a"
             }
         },
         {
             "name": "Keyword",
             "scope": ["keyword", "keyword.operator.logical", "keyword.operator.constructor"],
             "settings": {
-                "foreground": "#e06c75"
+                "foreground": "#db889a"
             }
         },
         {
             "name": "Keyword Operator",
             "scope": "keyword.operator",
             "settings": {
-                "foreground": "#e06c75"
+                "foreground": "#db889a"
             }
         },
         {
             "name": "Storage",
             "scope": "storage",
             "settings": {
-                "foreground": "#e06c75"
+                "foreground": "#db889a"
             }
         },
         {
             "name": "Types",
             "scope": "storage.type",
             "settings": {
-                "foreground": "#56b6c2"
+                "foreground": "#db889a"
             }
         },
         {
@@ -199,9 +199,12 @@
             }
         },
         {
-            "scope": ["variable", "identifier", "support.type.primitive.ts", "entity.name.type.parameter"],
+            "scope": [
+                "meta.object-literal.key.js",
+                "variable",
+            ],
             "settings": {
-                "foreground": "#bf9763"
+                "foreground": "#56b6c2"
             }
         },
         {
@@ -242,7 +245,7 @@
         },
         {
             "name": "Builtin Functions",
-            "scope": ["function.support.builtin", "function.support.core"],
+            "scope": ["function.support.builtin", "function.support.core", "variable.function"],
             "settings": {
                 "foreground": "#98c379"
             }
@@ -298,7 +301,7 @@
             "name": "Library class/type",
             "scope": ["support.type", "support.variable"],
             "settings": {
-                "foreground": "#56b6c2"
+                "foreground": "#db889a"
             }
         },
         {
@@ -387,7 +390,6 @@
             "name": "Invalid",
             "scope": "invalid",
             "settings": {
-                "background": "#c678dd",
                 "foreground": "#F8F8F0"
             }
         },
@@ -395,7 +397,6 @@
             "name": "Invalid deprecated",
             "scope": "invalid.deprecated",
             "settings": {
-                "background": "#56b6c2",
                 "foreground": "#F8F8F0"
             }
         },
